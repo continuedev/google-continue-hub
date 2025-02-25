@@ -1,0 +1,11 @@
+name: Gemini 2.0 Flash Thinking
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Gemini 2.0 Flash Thinking
+    provider: gemini
+    model: gemini-2.0-flash-thinking-exp-01-21
+    apiKey: ${{ inputs.GEMINI_API_KEY }}
+    roles:
+      - chat
