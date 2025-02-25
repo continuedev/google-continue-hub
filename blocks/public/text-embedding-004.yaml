@@ -1,0 +1,11 @@
+name: Gemini text-embedding-004
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Gemini text-embedding-004
+    provider: gemini
+    model: models/text-embedding-004
+    apiKey: ${{ inputs.GEMINI_API_KEY }}
+    roles:
+      - embed
