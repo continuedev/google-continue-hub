@@ -1,0 +1,13 @@
+name: Gemini 1.5 Pro
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Gemini 1.5 Pro
+    provider: gemini
+    model: gemini-1.5-pro
+    apiKey: ${{ inputs.GEMINI_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
