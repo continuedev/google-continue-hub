@@ -1,5 +1,5 @@
 name: Gemini 1.5 Pro
-version: 1.0.0
+version: 1.0.1
 schema: v1
 
 models:
@@ -11,3 +11,6 @@ models:
       - chat
       - edit
       - apply
+    defaultCompletionOptions:
+      contextLength: 2097152
+      maxTokens: 8192

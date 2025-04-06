@@ -1,5 +1,5 @@
 name: Gemini 2.0 Flash Thinking
-version: 1.0.0
+version: 1.0.1
 schema: v1
 
 models:
@@ -9,3 +9,6 @@ models:
     apiKey: ${{ inputs.GEMINI_API_KEY }}
     roles:
       - chat
+    defaultCompletionOptions:
+      contextLength: 1048576
+      maxTokens: 8192

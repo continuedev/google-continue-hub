@@ -11,3 +11,6 @@ models:
       - chat
       - edit
       - apply
+    defaultCompletionOptions:
+      contextLength: 1048576
+      maxTokens: 8192
