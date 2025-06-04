@@ -1,5 +1,5 @@
 name: Gemini 2.5 Pro Beta
-version: 1.0.3
+version: 1.0.2
 schema: v1
 
 models:
@@ -14,7 +14,3 @@ models:
     defaultCompletionOptions:
       contextLength: 1048576
       maxTokens: 65536
-    capabilities:
-      - tool_use
-      - image_input
-# TODO - once non-preview is out update this to use non-preview and add preview version
