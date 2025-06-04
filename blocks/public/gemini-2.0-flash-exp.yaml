@@ -1,11 +1,11 @@
-name: Gemini 2.5 Pro Beta
-version: 1.0.3
+name: Gemini 2.0 Flash Experimental
+version: 1.0.0
 schema: v1
 
 models:
-  - name: Gemini 2.5 Pro
+  - name: Gemini 2.0 Flash Experimental
     provider: gemini
-    model: gemini-2.5-pro-preview-05-06
+    model: gemini-2.0-flash-exp
     apiKey: ${{ inputs.GEMINI_API_KEY }}
     roles:
       - chat
@@ -13,8 +13,7 @@ models:
       - apply
     defaultCompletionOptions:
       contextLength: 1048576
-      maxTokens: 65536
+      maxTokens: 8192
     capabilities:
       - tool_use
       - image_input
-# TODO - once non-preview is out update this to use non-preview and add preview version
