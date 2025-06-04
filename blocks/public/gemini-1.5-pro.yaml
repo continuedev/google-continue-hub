@@ -1,5 +1,5 @@
 name: Gemini 1.5 Pro
-version: 1.0.1
+version: 1.0.2
 schema: v1
 
 models:
@@ -14,3 +14,6 @@ models:
     defaultCompletionOptions:
       contextLength: 2097152
       maxTokens: 8192
+    capabilities:
+      - tool_use
+      - image_input
