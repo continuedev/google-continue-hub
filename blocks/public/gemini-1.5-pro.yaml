@@ -1,9 +1,9 @@
-name: Gemini 1.5 Pro
-version: 1.0.2
+name: Gemini 1.5 Pro (DEPRECATED)
+version: 1.0.3
 schema: v1
 
 models:
-  - name: Gemini 1.5 Pro
+  - name: (DEPRECATED) Gemini 1.5 Pro
     provider: gemini
     model: gemini-1.5-pro
     apiKey: ${{ inputs.GEMINI_API_KEY }}
