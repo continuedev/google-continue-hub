@@ -1,9 +1,9 @@
-name: Gemini 1.5 Flash
-version: 1.0.2
+name: Gemini 1.5 Flash (DISCONTINUED)
+version: 1.0.3
 schema: v1
 
 models:
-  - name: Gemini 1.5 Flash
+  - name: (DISCONTINUED) Gemini 1.5 Flash
     provider: gemini
     model: gemini-1.5-flash
     apiKey: ${{ inputs.GEMINI_API_KEY }}

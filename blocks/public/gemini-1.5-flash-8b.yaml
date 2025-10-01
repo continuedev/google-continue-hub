@@ -1,9 +1,9 @@
-name: Gemini 1.5 Flash 8b
-version: 1.0.0
+name: Gemini 1.5 Flash 8b (DISCONTINUED)
+version: 1.0.1
 schema: v1
 
 models:
-  - name: Gemini 1.5 Flash 8b
+  - name: (DISCONTINUED) Gemini 1.5 Flash 8b
     provider: gemini
     model: gemini-1.5-flash-8b
     apiKey: ${{ inputs.GEMINI_API_KEY }}
