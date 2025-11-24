@@ -1,0 +1,19 @@
+name: Gemini 3 Pro Preview
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Gemini 3 Pro Preview
+    provider: gemini
+    model: gemini-3-pro-preview
+    apiKey: ${{ inputs.GEMINI_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      contextLength: 1048576
+      maxTokens: 65536
+    capabilities:
+      - tool_use
+      - image_input
